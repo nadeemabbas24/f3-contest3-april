@@ -29,25 +29,25 @@ form.addEventListener("submit", (e)=>{
 })
 }
 else if(location.href.includes("profile.html") && !localStorage.getItem("data"))
-        location.href = "./index.html"
+        location.href = "/index.html"
 
 function profileView(){
     console.log(window.location.href);
     if(localStorage.getItem("data")){    
              
-        window.location.href="./profile.html"
+        window.location.href="/profile.html"
           
     }
     else
     {
         alert("Oops! There is no Profile to show");
-        location.assign("./index.html");
+        location.assign("/index.html");
     }
 }
 
 function logout(){
     localStorage.removeItem("data");
-    location.assign("./index.html");
+    location.assign("/index.html");
     // location="/index.html"
 }
 
