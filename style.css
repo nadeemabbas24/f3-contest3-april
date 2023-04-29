@@ -1,0 +1,66 @@
+
+body{
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+}
+.signup-form{
+    display: flex;
+   
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+}
+.signup-form form{
+    /* background-color: aquamarine; */
+    width: 70%;
+}
+.header{
+    height: 3.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #fff;
+    padding: 0 20px;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+    padding: 0 20PX;
+}
+.fields{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0;
+    font-size: 2rem;
+
+}
+
+.fields input{
+    font-size: 2rem;
+    background-color: black;
+    color: white;
+    border: none;
+    border-bottom: 2px solid white;
+}
+button{
+    font-size: 1.5rem;
+    padding: 10px 30px;
+}
+.profile{
+    margin: 20px;
+    font-size: 2.5rem;
+   
+}
+#nav-profile:hover{
+    cursor: pointer;
+}
